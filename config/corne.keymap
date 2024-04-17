@@ -28,9 +28,9 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | SHFT/ESC| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | BTCLR |     |     |     |     |     |   |     |     |     |     |     |      |
+// |  TAB     |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | SHFT/ESC |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
+// | BTCLR    | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |     |      |
 //                    | GUI |     | ENT |   | SPC |     | ALT |
                         display-name = "Lower";
                         bindings = <
@@ -49,7 +49,7 @@
 //                    | GUI |     | ENT |   | SPC |     | ALT |
                         display-name = "Raise";
                         bindings = <
-   &kp  TAB      &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET   &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp TAB       &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET   &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &mt LSHFT ESC &trans   &trans &trans   &trans   &trans      &kp MINUS   &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
    &kp LCTRL     &trans   &trans &trans   &trans   &trans      &kp UNDER   &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                     	     &kp LGUI &trans   &kp RET     &kp SPACE   &trans    &kp RALT
